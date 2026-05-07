@@ -1720,7 +1720,7 @@ class AlphaLensApp(ctk.CTk):
             
         self.views[view_name].grid(row=0, column=0, sticky="nsew")
         self.views[view_name].tkraise()
-
+# main function
 if __name__ == "__main__":
     app = AlphaLensApp()
     app.mainloop()
